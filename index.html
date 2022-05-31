@@ -16,7 +16,26 @@
             <img src="./multimedia/csharp.png" id="logo" alt="logo universidad C#">
             <h1>University</h1>
         </div>
-        <a href="#" id="carrito"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        <div class="dropdown">
+            <i class="fa-solid fa-cart-arrow-down" id="boton-carrito"></i>
+            <div id="dropdown-content">
+                <table id="lista-carrito" class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+            </div>
+        </div>
+        
     </header>
     <main>
         <div class="buscador">
