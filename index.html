@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Proyecto Carrito</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./multimedia/csharp.png" id="logo" alt="logo universidad C#">
+            <h1>University</h1>
+        </div>
+        <a href="#" id="carrito"><i class="fa-solid fa-cart-arrow-down"></i></a>
+    </header>
+    <main>
+        <div class="buscador">
+            <p class="titulo1">Aprendé algo nuevo</p>
+            <p class="subtitulo1">Todos los cursos a $2500</p>
+            <form id="formulario">
+                <input type="search" placeholder="¿Qué te gustaría aprender?">
+                <button type="submit" class="boton-formulario"><i id="lupa" class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </main>
+    <section class="divisor">
+        <div class="ideas">
+            <i class="fa-solid fa-lightbulb"></i>
+            <div class="texto">
+                <p>Más de 5000 Cursos en línea</p>
+                <p>Contenido actualizado siempre!</p>
+            </div>
+        </div>
+        <div class="target">
+            <i class="fa-solid fa-bullseye"></i>
+            <div class="texto2">
+                <p>Instructores expertos</p>
+                <p>Espacios de consulta y foro grupal</p>
+            </div>
+        </div>
+        <div class="reloj">
+            <i class="fa-solid fa-clock"></i>
+            <div class="texto3">
+                <p>Acceso de por vida</p>
+                <p>Aprendé a tus tiempos!</p>
+            </div>
+        </div>
+    </section>
+    <section class="productos">
+        <div class="grid">
+            <div class="cursos">
+                <img src="./multimedia/Javascript.jpg" alt="curso javascript principiantes">
+                <div class="nombre-curso">
+                    <p>Curso inicial de JavaScript</p>
+                    <p class="docente">Carolina Pettinaroli</p>
+                    <div class="estrellas">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="cursos">
+                <img src="./multimedia/Javascript2.jpg" alt="curso javascript avanzado">
+                <div class="nombre-curso">
+                    <p>Curso avanzado de JavaScript</p>
+                    <p class="docente">Carolina Pettinaroli</p>
+                    <div class="estrellas">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="cursos">
+                <img src="./multimedia/springboot.jpg" alt="curso javascript avanzado">
+                <div class="nombre-curso">
+                    <p>Curso avanzado de Spring Boot</p>
+                    <p class="docente">Santiago Montañés</p>
+                    <div class="estrellas">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="cursos">
+                <img src="./multimedia/python.jpg" alt="curso javascript avanzado">
+                <div class="nombre-curso">
+                    <p>Curso de Python</p>
+                    <p class="docente">Anahi Torres</p>
+                    <div class="estrellas">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="cursos">
+                <img src="./multimedia/java.webp" alt="curso javascript avanzado">
+                <div class="nombre-curso">
+                    <p>Curso completo de Java</p>
+                    <p class="docente">Luis González</p>
+                    <div class="estrellas">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <button>Agregar al carrito</button>
+            </div>
+            <div class="cursos">
+                <img src="./multimedia/react.png" alt="curso javascript avanzado">
+                <div class="nombre-curso">
+                    <p>Curso avanzado de React JS</p>
+                    <p class="docente">Juan Cáceres</p>
+                    <div class="estrellas">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="direcciones">
+            <a href="#">Para tu Negocio</a>
+            <a href="#">Convertite en Instructor</a>
+            <a href="#">Aplicaciones Móviles</a>
+            <a href="#">Soporte</a>
+            <a href="#">Temas</a>
+        </div>
+        <div class="direcciones2">
+            <a href="#">¿Quiénes Somos?</a>
+            <a href="#">Empresas</a>
+            <a href="#">Blog</a>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

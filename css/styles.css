@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans:wght@200;300;400;900&family=Poppins:wght@800&family=Roboto&family=Square+Peg&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header con logo de la universidad e ícono del carrito */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo h1 {
+    font-family: 'Noto Sans', sans-serif;
+}
+#logo {
+    width: 70px;
+    max-width: 150px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+#carrito {
+    font-size: 25px;
+}
+
+/* Diseño estético de la sección Main */
+
+main {
+    /* background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.1)), url(../multimedia/laptop.jpg); */
+    background-image: url(../multimedia/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 60vh;
+}
+
+.buscador {
+    color: white;
+    padding: 120px;
+    padding-top: 110px;
+}
+
+.titulo1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    /* font-weight: lighter; */
+    padding: 10px;
+    font-weight: 300;
+
+}
+
+.subtitulo1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    padding: 10px;
+    padding-top: 0px;
+    
+}
+
+#formulario {
+    padding: 10px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+#formulario input {
+    width: 40%;
+    border-color: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#formulario input::placeholder {
+    font-family: 'Noto Sans', sans-serif;
+    opacity: 50%;
+}
+
+.boton-formulario {
+    background: none;
+    border: none;
+    padding-left: 5px;
+}
+
+.boton-formulario:focus {
+    border: none;
+    outline: none;
+}
+
+button i {
+    background-color: none;
+    cursor: pointer;
+    font-size: 17px;
+    text-shadow: 1px 1px rgb(93, 42, 141);
+    font-weight: 700;
+    color: white;
+}
+
+/* sección divisor de main y ventanas de cursos */
+
+.divisor {
+    background-color: rgb(93, 42, 141);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    align-items: center;
+}
+
+.divisor div {
+    display: flex;
+    align-items: center;
+}
+
+.divisor div i {
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    
+    
+}
+
+.texto,
+.texto2,
+.texto3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+/* sección de productos */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    padding: 30px;
+    justify-items: center;
+    
+    
+}
+
+.cursos {
+    width: 400px;
+    height: auto;
+    border: 3px rgb(93, 42, 141); 
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5px;
+    
+}
+
+.cursos img {
+    width: 100%
+}
+
+.cursos p {
+    padding: 4px;
+}
+
+.cursos p:nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cursos p:nth-child(2){
+    padding-bottom: 10px;
+}
+
+.estrellas  {
+    padding:7px;
+}
+
+.estrellas span {
+    color: rgb(255, 217, 0);
+}
+
+.estrellas span:nth-child(5) {
+    color: #ccc
+}
+
+.cursos button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    background-color: rgb(93, 42, 141);
+    color: rgb(243, 187, 245);
+    border-radius: 7px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: rgb(215, 179, 248); ;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(93, 42, 141);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    padding: 3px;
+}
